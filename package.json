@@ -1,18 +1,42 @@
 {
   "name": "online-shore",
   "version": "0.1.0",
+  "homepages":"https://mavhungu.github.io/online-store",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.9.13",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "gh-pages": "^2.2.0",
+    "jquery": "^3.5.0",
+    "mongoose": "^5.9.12",
+    "nodemon": "^2.0.3",
+    "popper": "^1.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-icons": "^3.10.0",
+    "react-loader-spinner": "^3.1.14",
+    "react-particles-js": "^3.2.1",
+    "react-promise-tracker": "^2.1.0",
+    "react-scripts": "3.4.1",
+    "react-tilt": "^0.1.4",
+    "react-toastify": "^6.0.0-rc.2-1",
+    "reactjs-popup": "^1.5.0",
+    "tachyons": "^4.12.0",
+    "validator": "^13.0.0"
   },
   "scripts": {
+    "dev": "nodemon backend/server.js -e js",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -30,5 +54,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "keywords": [],
+  "author": "Mavhungu Ronewa",
+  "license": "ISC"
 }
