@@ -29,7 +29,7 @@ const Login = ({onRouteChange,onLoginButton,onEmail,onPassword})=>{
                            type="submit" value="login" onClick={()=>mt()}/>
                 </div>
                 <div className="lh-copy mt3">
-                    <a href="#" className="f6 link dim black db" onClick={()=>onRouteChange('signout')}>Sign up</a>
+                    <a href="#" className="f6 link dim black db" onClick={()=>onRouteChange('register')}>Sign up</a>
                     {/*<a href="#" className="f6 link dim black db">Forgot your password?</a>*/}
                 </div>
             </form>

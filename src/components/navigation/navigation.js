@@ -62,7 +62,7 @@ const Navigation = ({onRouteChange,isSignedIn,number,orderOut,orders,final,price
                 </a>
                 <div className="dtc v-mid w-75 tr">
                     <a className="link dim white f6 f5-ns dib mr3 mr4-ns" href="#" title="About" onClick={()=>onRouteChange('register')}>Register</a>
-                    <a className="link dim white f6 f5-ns dib mr3 mr4-ns" href="#" title="Store" onClick={()=>onRouteChange('signin')}>Login</a>
+                    <a className="link dim white f6 f5-ns dib mr3 mr4-ns" href="#" title="Store" onClick={()=>onRouteChange('login')}>Login</a>
                 </div>
             </nav>
         );
